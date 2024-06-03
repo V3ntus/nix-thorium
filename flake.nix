@@ -29,7 +29,7 @@
             install -m 444 -D ${appimageContents}/thorium-browser.desktop $out/share/applications/thorium-browser.desktop
             install -m 444 -D ${appimageContents}/thorium.png $out/share/icons/hicolor/512x512/apps/thorium.png
             substituteInPlace $out/share/applications/thorium-browser.desktop \
-            --replace 'Exec=AppRun --no-sandbox %U' 'Exec=${name} %U'
+            --replace 'Exec=thorium --no-sandbox %U' 'Exec=${name} %U'
           '';
         };
 
@@ -48,7 +48,7 @@
             install -m 444 -D ${appimageContents}/thorium-browser.desktop $out/share/applications/thorium-browser.desktop
             install -m 444 -D ${appimageContents}/thorium.png $out/share/icons/hicolor/512x512/apps/thorium.png
             substituteInPlace $out/share/applications/thorium-browser.desktop \
-            --replace 'Exec=AppRun --no-sandbox %U' 'Exec=${name} %U'
+            --replace 'Exec=thorium --no-sandbox %U' 'Exec=${name} %U'
           '';
         };
 
@@ -67,7 +67,7 @@
             install -m 444 -D ${appimageContents}/thorium-browser.desktop $out/share/applications/thorium-browser.desktop
             install -m 444 -D ${appimageContents}/thorium.png $out/share/icons/hicolor/512x512/apps/thorium.png
             substituteInPlace $out/share/applications/thorium-browser.desktop \
-            --replace 'Exec=AppRun --no-sandbox %U' 'Exec=${name} %U'
+            --replace 'Exec=thorium --no-sandbox %U' 'Exec=${name} %U'
           '';
         };
 
@@ -112,7 +112,7 @@
             install -m 444 -D ${appimageContents}/thorium-browser.desktop $out/share/applications/thorium-browser.desktop
             install -m 444 -D ${appimageContents}/thorium.png $out/share/icons/hicolor/512x512/apps/thorium.png
             substituteInPlace $out/share/applications/thorium-browser.desktop \
-            --replace 'Exec=AppRun --no-sandbox %U' 'Exec=${name} %U'
+            --replace 'Exec=thorium --no-sandbox %U' 'Exec=${name} %U'
           '';
         };
 
